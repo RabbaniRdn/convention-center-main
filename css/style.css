@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* common css */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+/* carousel */
+nav .fixed-top{
+    height: 90px;
+}
+ nav a, 
+ .nav li a{
+     color:black;
+     font-weight: 700;
+     font-size: large;
+ }
+.nav li a:hover{
+    background-color: rgba(128, 128, 128, 0.486);
+    transition:background-color 1s ease-in ;
+}
+.btn-book:focus{
+    outline:none;
+}
+.carousel-item{
+    position: relative;
+}
+.Previous-icon, .next-icon{
+    width: 4rem;
+    height: 4rem;
+}
+/* /our package  */
+.our-package ul li i{
+    margin-right:11px;
+    font-weight: 100;
+}
+.our-package h2{
+    font-size: 30px;
+}
+.chooce{
+    background-color: #EFADCE;
+    padding: 5px 30px;
+}
