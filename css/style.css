@@ -77,26 +77,38 @@ a{
     background-color: #EFADCE;
     border-radius: 20px solid;
 }
+/*visit area
+=======================================
+             visit area
+=======================================*/
+.visit-area .catagory-area{
+    padding: 0;
+    border-radius: 10px;
+   width: 343px;
+   
+}
+.service-info{
+    background-color: #FF7A59;
+}
 /* monent 
 ====================================================
                         moment-area
 ====================================================*/
 .moment-area{
-    height: 500px;
+    height: 300px;
     margin-top: 100px;
     position:relative;
     background:#CFF4FC;
 }
 .moment-area h1{
-    position: absolute;
-    top:50%;
     color:#E685B5;
-    left: 20%;
+
     
 }
 .moment-area img{
     position:absolute;
-    top:400px;
+    top:200px;
+    height: 90%;
 }
 /* 
 =====================================================
