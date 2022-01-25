@@ -58,6 +58,11 @@ a{
 .when-hover:hover .hot{
     display: block;
 }
+.package i{
+    margin-right: 10px;
+    font-weight: 100;
+}
+
 .when-hover:hover .choose{
     background-color: aliceblue;
 }
@@ -81,12 +86,16 @@ a{
 =======================================
              visit area
 =======================================*/
+.visit-area h1{
+    margin-bottom: 70px;
+}
 .visit-area .catagory-area{
     padding: 0;
     border-radius: 10px;
-   width: 343px;
+    width: 343px;
    
 }
+
 .service-info{
     background-color: #FF7A59;
 }
@@ -116,15 +125,31 @@ a{
 ===================================================== */
 footer{
     background-color:#0B0D17;
+}
+.footer-area{
     color:white;
     font-weight: 100;
+    margin-top: 200px;
+    height: 200px;
 }
-.Google-Play{
-    position: relative;
-
+.footer-area p{
+    font-size: 10px;
 }
-.Google-Play:after{
-    content:"\f3ab";
-   font-family: "Font Awesome 5 Brands";
-   font-weight: 700;
-} 
+.footer-area h4{
+    font-size: ;
+}
+/* Frequently
+========================================================
+                     Frequently
+======================================================== */
+.Frequently{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.Frequently h1{
+    margin-bottom: 70px;
+}
+.alert-width{
+    width: 50%;
+    text-align: center;
+}
